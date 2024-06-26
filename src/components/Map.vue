@@ -1,6 +1,5 @@
 <template>
     <div>
-     <h3>An interactive leaflet map</h3>
      <div id="map" style="height:90vh;"></div>
     </div>
   </template>
