@@ -6,21 +6,15 @@
     :labels="{days: 'Jours',hours: 'Heures',minutes: 'Minutes',seconds: 'Secondes',}"
   />
   <MapComponent />
-
+  <ContactForm />
 
 </template>
 
-<script>
-import MapComponent from './components/Map.vue'
-import Navbar from './components/Navbar.vue'
+<script setup>
+import MapComponent from './components/MapComponent.vue'
+import Navbar from './components/NavbarComponent.vue'
+import ContactForm from './components/ContactForm.vue'
 
-export default {
-  name: 'App',
-  components: {
-    Navbar,
-    MapComponent,
-  },  
-}
 
 </script>
 
