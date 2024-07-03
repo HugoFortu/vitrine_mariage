@@ -21,6 +21,7 @@
             </a>
         </div>
     </div>
+    <h1 class="title text-center">Camille & Alexandre</h1>
 </template>
 
 <script setup>

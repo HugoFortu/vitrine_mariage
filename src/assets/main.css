@@ -1,2 +1,13 @@
 @import './base.css';
 
+@font-face {
+    font-family: TheSignature;
+    src: url("./Thesignature.otf") format("opentype");
+}
+
+.title {
+    font-family: TheSignature;
+    font-weight: 100;
+    font-size: 16rem;
+    color: #CF6F59;
+}
