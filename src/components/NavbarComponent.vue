@@ -1,34 +1,29 @@
 <template>
-    <div class="w-full block flex-grow flex items-center w-auto">
-        <div class="text-sm flex-grow">
-            <a href="#ou-et-quand" class="block mt-4 inline-block mt-0  mr-4">
-                Où et quand
+    <div class="navbar-container display-flex">
+        <div>
+            <h1 class="navbar-title">C+A</h1>
+        </div>
+        <div class="menu-items">
+            <a href="#la-journee" class="menu-item">
+                LA JOURNEE
             </a>
-            <a href="#la-journee" class="block mt-4 inline-block mt-0  mr-4">
-                La journée
+            <a href="#plans" class="menu-item">
+                PLANS
             </a>
-            <a href="#accueil" class="block mt-4 inline-block mt-0  mr-4">
-                A&C
+            <a href="#hebergement" class="menu-item">
+                HEBERGEMENTS
             </a>
-            <a href="#ou-dormir" class="block mt-4 inline-block mt-0  mr-4">
-                Où dormir
+            <a href="#RSVP" class="menu-item">
+                RSVP
             </a>
-            <a href="#reponse" class="block mt-4 inline-block mt-0  mr-4">
-                Réponse
-            </a>
-            <a href="#contacts" class="block mt-4 inline-block mt-0 ">
-                Contacts
+            <a href="#contact" class="menu-item">
+                CONTACT
             </a>
         </div>
     </div>
-    <h1 class="title text-center">Camille & Alexandre</h1>
+
 </template>
 
 <script setup>
 
 </script>
-
-<style scoped>
-
-/* Ajoutez ici tout style personnalisé si nécessaire */
-</style>

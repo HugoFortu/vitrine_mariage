@@ -1,0 +1,290 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: TheSignature;
+    src: url("./Thesignature.otf") format("opentype");
+}
+
+.display-flex {
+    display: flex;
+}
+
+.little-title {
+    font-family: Caveat;
+    margin-left: 6rem;
+    font-size: 4.5rem;
+    color: #D47E61;
+    font-weight: 800;
+    letter-spacing: -0.1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  NAVBAR
+
+// ====================================================================================================
+// ====================================================================================================
+
+.navbar-container {
+    background-color: #D47E61;
+}
+
+.navbar-title {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Caveat;
+    font-weight: 600;
+    font-size: 12rem;
+    color: #F3E4DB;
+    line-height: 0.9;
+    letter-spacing: -0.5rem;
+}
+
+.menu-items {
+    padding-top: 1.5rem;
+    padding-left: 5rem;
+}
+
+.menu-item {
+    padding-left: 5rem;
+    font-size: 1.2rem;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  BANNER
+
+// ====================================================================================================
+// ====================================================================================================
+
+.title {
+    font-family: Caveat;
+    font-weight: 400;
+    font-size: 14rem;
+    color: #D47E61;
+    line-height: 0.9;
+    letter-spacing: -0.5rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 4px 6px rgb(108, 100, 100);
+}
+
+.container-banner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+.banner-section {
+    background-color: #F2E4DB;
+}
+
+.banner-sentence {
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 14vw;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.time-counter {
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.date-container {
+    width: 20rem;
+    margin-left: 6rem;
+    padding-bottom: 3rem;
+    p {
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        padding: 1rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+    }
+}
+
+.orange-section {
+    height: 16rem;
+    background-color: #D47E61;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  DaySchedule
+
+// ====================================================================================================
+// ====================================================================================================
+
+.schedule-section {
+    background-color: #F3E4DB;
+    padding-left: 6rem;
+    padding-bottom: 6rem;
+}
+
+.schedule-sentence {
+    font-size: 4rem;
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 40vw;
+}
+
+.img-schedule {
+    margin-left: 60rem;
+}
+
+.title-schedule {
+    font-size: 1.8rem;
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.p-schedule {
+    font-family: CormorantGaramondt;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  Quote
+
+// ====================================================================================================
+// ====================================================================================================
+
+.quote-section {
+    height: 32rem;
+    background-color: #D47E61;
+}
+
+.quote-text {
+    font-size: 4rem;
+    font-family: CormorantGaramondt;
+    padding-top: 8rem;
+    width: 34vw;
+    margin-left: 33vw;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  Plans
+
+// ====================================================================================================
+// ====================================================================================================
+
+.div-map {
+    padding-left: 5rem;
+    div {
+        background-color: #e9c1b3;
+        padding: 2px;
+        border-radius: 4px;
+    }
+
+    p {
+        padding-top: 2rem;
+        font-family: CormorantGaramondt;
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+}
+
+.background-orange {
+    height: 4rem;
+    background-color: #CA9988;
+    margin-top: 8rem;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  Acommodation
+
+// ====================================================================================================
+// ====================================================================================================
+
+.text-acco {
+    padding-left: 6rem;
+    max-width: 40rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.4rem;
+    padding-bottom: 8rem;
+}
+
+// ====================================================================================================
+// ====================================================================================================
+
+//  Contacts
+
+// ====================================================================================================
+// ====================================================================================================
+
+.whithe-bkg {
+    background-color: #FFFFFF;
+    h1 {
+        font-family: CormorantGaramondt;
+        font-size: 6rem;
+        max-width: 50vw;
+        text-align: center;
+        margin:auto;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        line-height: 1.2;
+    }
+}
+
+.contact {
+    padding-left: 6rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.6rem;
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
+.right-div-contact {
+    padding-left: 25vw;
+    text-align: center;
+    max-width: 50vw;
+    padding-top: 10rem;
+    p {      
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 1.2rem;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+    }
+}
