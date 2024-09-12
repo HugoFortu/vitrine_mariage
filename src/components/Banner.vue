@@ -17,7 +17,7 @@
         <div class="date-container">
           <p class="date-text">
             Samedi, 10 mai 2025 <br>
-            Mairie de Milly-la-forêt
+            Mairie de Milly-la-Forêt
           </p>
           <button class="answer-btn">
             REPONDRE
