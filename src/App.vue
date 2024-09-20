@@ -1,5 +1,5 @@
-<template>
-  <Navbar />
+<template class="navbar-container">
+  <!-- <Navbar />
   <Banner />
   <DaySchedule />
   <Quote />
@@ -12,8 +12,8 @@
     Open Modal
   </VButton>
 
-  <ModalsContainer />
-
+  <ModalsContainer /> -->
+  <h1 class="title" style="margin-left: 20vw;">Le site est actuellement en construction</h1>
 </template>
 
 <script setup>
