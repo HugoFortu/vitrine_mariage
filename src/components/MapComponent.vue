@@ -8,6 +8,10 @@
   import { ref, onMounted } from 'vue';
   import "leaflet/dist/leaflet.css"
   import * as L from 'leaflet';
+  import markerIcon from "../../node_modules/leaflet/dist/images/marker-icon.png";
+    L.Marker.prototype.setIcon(L.icon({
+      iconUrl:markerIcon
+    }))
   
   const props = defineProps(['adresse'])
   const initialMap = ref(null);
@@ -18,15 +22,13 @@
 } else if (props.adresse === 'Orangerie') {
      coordonates = [48.1399421,2.8036086]
 }
-
   
   onMounted(()=> {
-      initialMap.value = L.map('map-' + props.adresse).setView(coordonates, 14);
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 19, 
-          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-      }).addTo(initialMap.value);
-      L.marker(coordonates).addTo(initialMap.value);
+    initialMap.value = L.map('map-' + props.adresse).setView(coordonates, 14);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19, 
+    }).addTo(initialMap.value);
+    L.marker(coordonates).addTo(initialMap.value);
   });
 
   </script>
