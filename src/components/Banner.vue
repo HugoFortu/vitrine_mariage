@@ -19,13 +19,13 @@
             Samedi, 10 mai 2025 <br>
             Mairie de Milly-la-Forêt
           </p>
-          <button class="answer-btn">
+          <button class="answer-btn" @click="$emit('openForm')">
             REPONDRE
           </button>
         </div>
       </div>
-      <div>
-        <img src="" alt="">
+      <div class="img-banner">
+        <img src="../assets/image/dos.jpeg" alt="">
       </div>
     </div>
     <div class="orange-section"></div>

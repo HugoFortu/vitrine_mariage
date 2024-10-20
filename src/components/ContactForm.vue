@@ -1,54 +1,55 @@
 <template>
-    <form action="" @submit.prevent="sendEmail">
-        <div>
-            <input type="text" v-model="firstName" placeholder="First Name" />
+    <form class="rsvp-form" action="">
+        <div class="div-text">
+            <label class="label-text">Nom</label>
+            <input class="input-text" type="text" v-model="localModel.name" placeholder="Nom Prénom"/>
         </div>
-        <div>
-            <input type="text" v-model="subject" placeholder="Subject of message" />
+        <p >Serez-vous présents à notre mariage ?</p>
+        <div class="div-text">
+            <span class="radio-span">Oui</span>
+            <input type="radio" name="presence" value="Oui" v-model="localModel.presence"/>
+            <span class="radio-span">Non</span>
+            <input type="radio" name="presence" value="Non" v-model="localModel.presence"/>
         </div>
-        <div>
-            <input type="email" v-model="email" placeholder="Enter your Email" />
+        <div v-if="localModel.presence === 'Oui'">
+            <label>Samedi</label>
+            <input type="checkbox"  v-model="localModel.samedi" />
         </div>
-        <div>
-            <button type="submit">
-                SUBMIT
-            </button>
+        <div class="div-text" v-if="localModel.presence === 'Oui'">
+            <label>Dimanche</label>
+            <input type="checkbox"  v-model="localModel.dimanche" />
+        </div>
+        <div  v-if="localModel.presence === 'Oui'">
+            <label class="label-number">Combien de personne</label>
+            <input class="input-number" type="number"  v-model="localModel.number" />
         </div>
     </form>
 </template>
 
 <script setup>
-    import { ref } from "vue";
-    import emailjs from '@emailjs/browser';
+import { toRefs, watch, reactive } from 'vue';
 
-    const firstName = ref("");
-    const email = ref("");
-    const subject = ref("");
+// Props
+const props = defineProps({
+  modelValue: {
+    type: Object,
+    default: () => ({
+        name: '',
+        presence: null,
+        samedi: false,
+        dimanche: false,
+        number: 0,
+    })
+  }
+});
 
-    const sendEmail = () => {
-        const body = {
-            from_name: firstName.value,
-            message: `Email : ${email.value} \n etc etc`,
-            email: email.value,
-        }
+// Emit event
+const emit = defineEmits(['update:modelValue']);
 
-        emailjs
-        .send(import.meta.env.VITE_EMAILJS_SERVICE, import.meta.env.VITE_EMAILJS_TEMPLATE, body, {
-          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
-    }
+const localModel = reactive({ ...props.modelValue });
+
+watch(localModel, (newVal) => {
+  emit('update:modelValue', newVal);
+}, { deep: true });
 
 </script>
-
-<style scoped>
-
-/* Ajoutez ici tout style personnalisé si nécessaire */
-</style>

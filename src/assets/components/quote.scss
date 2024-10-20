@@ -1,0 +1,72 @@
+
+@media (min-width: 1400px )  {
+  .quote-section {
+    height: 32rem;
+    background-color: #D47E61;
+  }
+  
+  .quote-text {
+    font-size: 4rem;
+    font-family: CormorantGaramondt;
+    padding-top: 8rem;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .quote-section {
+    height: 24rem;
+    background-color: #D47E61;
+  }
+  
+  .quote-text {
+    font-size: 3rem;
+    font-family: CormorantGaramondt;
+    padding-top: 8rem;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .quote-section {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    height: 8rem;
+    background-color: #D47E61;
+  }
+  
+  .quote-text {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: CormorantGaramondt;
+    width: 90vw;
+    margin: auto;
+    padding-top: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .quote-section {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    height: 8rem;
+    background-color: #D47E61;
+  }
+  
+  .quote-text {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: CormorantGaramondt;
+    width: 90vw;
+    margin: auto;
+    padding-top: 1.5rem;
+  }
+  
+}

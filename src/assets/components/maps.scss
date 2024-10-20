@@ -1,0 +1,156 @@
+
+
+
+@media (min-width: 1400px )  {
+  .div-map {
+    padding-left: 5rem;
+    div {
+        background-color: #e9c1b3;
+        padding: 2px;
+        border-radius: 4px;
+    }
+  
+    p {
+        padding-top: 2rem;
+        font-family: CormorantGaramondt;
+        font-size: 1.4rem;
+    }
+  
+    h4 {
+        font-size: 2rem;
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+  }
+  
+  .background-orange {
+    height: 4rem;
+    background-color: #D47E61;
+    margin-top: 8rem;
+  }
+
+  .map {
+    height:45vh; 
+    width:40vw;
+  }
+
+  .gps {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .div-map {
+    padding-left: 5rem;
+    div {
+        background-color: #e9c1b3;
+        padding: 2px;
+        border-radius: 4px;
+    }
+  
+    p {
+        padding-top: 2rem;
+        font-family: CormorantGaramondt;
+        font-size: 1.4rem;
+    }
+  
+    h4 {
+        font-size: 2rem;
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+  }
+  
+  .background-orange {
+    height: 4rem;
+    background-color: #D47E61;
+    margin-top: 8rem;
+  }
+
+  .map {
+    height:45vh; 
+    width:40vw;
+  }
+
+  .gps {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .div-map {
+    padding-left: 3rem;
+    div {
+        background-color: #e9c1b3;
+        padding: 2px;
+        border-radius: 4px;
+    }
+  
+    p {
+        padding-top: 2rem;
+        font-family: CormorantGaramondt;
+        font-size: 1rem;
+    }
+  
+    h4 {
+        font-size: 1.4rem;
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+  }
+  
+  .background-orange {
+    height: 4rem;
+    background-color: #D47E61;
+    margin-top: 8rem;
+  }
+
+  .map {
+    height:45vh; 
+    width:40vw;
+  }
+
+  .gps {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .div-map {
+    p {
+      text-align: center;
+      font-family: CormorantGaramondt;
+      font-size: 1.2rem;
+    }
+  
+    h4 {
+      text-align: center;
+      font-size: 1.6rem;
+      font-family: CormorantGaramondt;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+  }
+  
+  .background-orange {
+    height: 4rem;
+    background-color: #D47E61;
+    margin-top: 8rem;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .gps {
+    margin-top: 1rem;
+  }
+
+  #plans {
+    padding-bottom: 3rem;
+  }
+}

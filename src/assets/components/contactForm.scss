@@ -1,0 +1,103 @@
+.confirm-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confirm-modal-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: #F2E3DB;
+  border-radius: 0.5rem;
+}
+.confirm-modal-content > * + *{
+  margin: 1rem 0;
+}
+.confirm-modal-content h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: Caveat;
+  color: #D47E61;
+  font-weight: 800;
+  letter-spacing: -0.1rem;
+}
+.confirm-modal-content button {
+  font-family: CormorantGaramondt;
+  font-size: 1.4rem;
+  margin: auto;
+  padding: 0.4rem 3rem;
+  border: 1px solid  rgb(34, 34, 38);
+  border-radius: 0.2rem;
+  color: white;
+  background-color: #D47E61;
+}
+
+.dark .confirm-modal-content {
+  background: #413d3d;
+}
+
+.rsvp-form {
+  width: 60vw;
+  height: 60vh;
+  padding-top: 2rem;
+  p {
+    margin-left: 10vw;
+    font-family: CormorantGaramondt;
+    font-size: 1.4rem;
+  }
+}
+
+.rsvp-form div {
+  margin-left: 10vw;
+  display: flex;
+}
+
+.radio-span {
+  font-family: CormorantGaramondt;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.input-number {
+  width: 3.5rem;
+  padding-left: 1rem;
+  padding-right: 0.3rem;
+  border-radius: 5px;
+}
+
+.input-text {
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+.label-text {
+  width: 6rem;
+}
+
+.div-text {
+  margin-bottom: 1.4rem;
+}
+
+.label-number {
+  width: 14rem;
+}
+
+label {
+  font-family: CormorantGaramondt;
+  font-size: 1.4rem;
+  width: 10rem;
+}
+
+@media (max-width: 576px) {
+  .rsvp-form {
+    width: 80vw;
+    height: 70vh;
+    padding-top: 1.4rem;
+  }
+
+  .confirm-modal-content {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,198 @@
+#contact {
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 1400px )  {
+  
+.whithe-bkg {
+  background-color: #FFFFFF;
+  h1 {
+      font-family: CormorantGaramondt;
+      font-size: 6rem;
+      max-width: 80vw;
+      text-align: center;
+      margin: auto;
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+      line-height: 1.2;
+  }
+}
+
+.contact {
+  padding-left: 6rem;
+  font-family: CormorantGaramondt;
+  font-size: 1.6rem;
+  p {
+      margin-bottom: 2rem;
+  }
+}
+
+.right-div-contact {
+  padding-left: 25vw;
+  text-align: center;
+  max-width: 50vw;
+  padding-top: 10rem;
+  p {      
+      font-family: CormorantGaramondt;
+      font-weight: 400;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+  }
+  button {
+      font-size: 1.2rem;
+      padding-top: 1.6rem;
+      padding-bottom: 1.6rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      border: 0.1rem solid;
+      border-radius: 40px;
+  }
+}
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+      
+  .whithe-bkg {
+    background-color: #FFFFFF;
+    h1 {
+        font-family: CormorantGaramondt;
+        font-size: 4rem;
+        max-width: 80vw;
+        text-align: center;
+        margin: auto;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        line-height: 1.2;
+    }
+  }
+
+  .contact {
+    padding-left: 6rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.6rem;
+    p {
+        margin-bottom: 2rem;
+    }
+  }
+
+  .right-div-contact {
+    padding-left: 10vw;
+    text-align: center;
+    max-width: 50vw;
+    padding-top: 15rem;
+    p {      
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 1.2rem;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+        
+  .whithe-bkg {
+    background-color: #FFFFFF;
+    margin-bottom: 2rem;
+    h1 {
+        font-family: CormorantGaramondt;
+        font-size: 2rem;
+        max-width: 90vw;
+        text-align: center;
+        margin:auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        line-height: 1.2;
+    }
+  }
+
+  .contact {
+    padding-left: 3rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.2rem;
+    p {
+        margin-bottom: 2rem;
+    }
+  }
+
+  .right-div-contact {
+    padding-left: 10vw;
+    text-align: center;
+    max-width: 50vw;
+    padding-top: 3rem;
+    p {      
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .whithe-bkg {
+    background-color: #FFFFFF;
+    margin-bottom: 2rem;
+    h1 {
+        font-family: CormorantGaramondt;
+        font-size: 2rem;
+        max-width: 90vw;
+        text-align: center;
+        margin:auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        line-height: 1.2;
+    }
+  }
+  .contact {
+    padding-top: 2rem;
+    margin: auto;
+    text-align: center;
+    font-family: CormorantGaramondt;
+    font-size: 1.6rem;
+    p {
+        margin-bottom: 2rem;
+    }
+  }
+  
+  .right-div-contact {
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    p {      
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 1.2rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+    }
+  }
+}

@@ -17,6 +17,11 @@
             91490 Milly-la-Forêt <br>
             Coordonnées GPS : 48.4034789, 2.4668973
           </p>
+          <p class="gps">
+            <a href="https://www.google.com/maps?q=48.40347893,2.4668973" target="_blank">
+              Ouvrir dans Google Maps
+            </a>
+          </p>
         </div>
         <div class="div-map">
           <h4>Itinéraire Orangerie</h4>
@@ -30,6 +35,11 @@
             Adresse :  Moulin de Gros Lot, <br>
             77620 Bransles  <br>
             Coordonnées GPS : 48.1399421, 2.8036086
+          </p>
+          <p class="gps">
+            <a href="https://www.google.com/maps?q=48.1399421,2.8036086" target="_blank">
+              Ouvrir dans Google Maps
+            </a>
           </p>
         </div>
       </div>

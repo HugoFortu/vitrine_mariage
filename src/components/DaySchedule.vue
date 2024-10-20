@@ -5,7 +5,7 @@
       </div>
       <div class="display-flex">
         <div class="img-schedule">
-          <img src="" alt="">
+          <img src="../assets/image/face.jpeg" alt="">
         </div>
         <div>
           <div class="display-flex">

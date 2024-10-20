@@ -19,7 +19,7 @@
     </div>
     <div class="right-div-contact">
       <p>Réponse souhaitée avant le 31/01/25 SVP</p>
-      <button >
+      <button @click="$emit('openForm')">
         REPONDRE
       </button>
     </div>

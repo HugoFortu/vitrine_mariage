@@ -1,0 +1,76 @@
+#hebergement {
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 1400px )  {
+  .text-acco {
+    padding-left: 6rem;
+    max-width: 40rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .list-acco {
+    padding-left: 6rem;
+    max-width: 40rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .text-acco {
+    padding-left: 6rem;
+    max-width: 40rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .list-acco {
+    padding-left: 6rem;
+    max-width: 40rem;
+    font-family: CormorantGaramondt;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .text-acco {
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    font-family: CormorantGaramondt;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+  }
+
+  .list-acco {
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    font-family: CormorantGaramondt;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-acco {
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    font-family: CormorantGaramondt;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .list-acco {
+    text-align: center;
+    margin: auto;
+    max-width: 90vw;
+    font-family: CormorantGaramondt;
+    font-size: 1.1rem;
+  }
+}

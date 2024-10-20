@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div :id="'map-' + props.adresse" style="height:45vh; width:40vw;"></div>
+        <div :id="'map-' + props.adresse" class="map"></div>
     </div>
 </template>
   

@@ -1,0 +1,275 @@
+
+
+@media (min-width: 1400px )  {
+ 
+.title {
+  font-family: Caveat;
+  font-weight: 400;
+  font-size: 10rem;
+  color: #D47E61;
+  line-height: 0.9;
+  letter-spacing: -0.5rem;
+  margin-bottom: 3rem;
+  text-shadow: 2px 4px 6px rgb(108, 100, 100);
+}
+
+.container-banner {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 40vw;
+  margin-left: 10vw;
+}
+
+.banner-section {
+  background-color: #F2E4DB;
+}
+
+.banner-sentence {
+  text-align: center;
+  font-family: CormorantGaramondt;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.time-counter {
+  font-family: CormorantGaramondt;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.date-container {
+  width: 20rem;
+  margin-left: 6rem;
+  padding-bottom: 3rem;
+  p {
+      font-family: CormorantGaramondt;
+      font-weight: 400;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+  button {
+      padding: 1rem;
+      border: 0.1rem solid;
+      border-radius: 40px;
+  }
+}
+
+.orange-section {
+  height: 16rem;
+  background-color: #D47E61;
+}
+.img-banner {
+  padding-top: 16rem;
+  margin-right: 5vw;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+   
+  .title {
+    font-family: Caveat;
+    font-weight: 400;
+    font-size: 7rem;
+    color: #D47E61;
+    line-height: 0.9;
+    letter-spacing: -0.1rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 4px 6px rgb(108, 100, 100);
+  }
+
+  .container-banner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 40vw;
+    margin-left: 10vw;
+  }
+
+  .banner-section {
+    background-color: #F2E4DB;
+  }
+
+  .banner-sentence {
+    text-align: center;
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .time-counter {
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .date-container {
+    width: 20rem;
+    margin-left: 6rem;
+    padding-bottom: 3rem;
+    p {
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        padding: 1rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+    }
+  }
+
+  .orange-section {
+    height: 16rem;
+    background-color: #D47E61;
+  }
+  .img-banner {
+    padding-top: 24rem;
+    margin-right: 5vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .title {
+    font-family: Caveat;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #D47E61;
+    line-height: 0.9;
+    margin-bottom: 5rem;
+    text-shadow: 1px 2px 3px rgb(108, 100, 100);
+  }
+
+  .time-counter {
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .no-animation__card {
+    margin-left: 1rem;
+  }
+  
+  .flip-clock__slot {
+    margin-left: 1rem;
+  }
+
+  .date-container {
+    margin: auto;
+    text-align: center;
+    width: 90vw;
+    padding-bottom: 3rem;
+    p {
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        padding: 0.7rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+        font-size: 1rem;
+    }
+  }
+
+  .container-banner {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    p {
+      font-family: CormorantGaramondt;
+      font-weight: 400;
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .date-text {
+    padding-bottom: 2rem;
+  }
+
+  .orange-section {
+    height: 4rem;
+    background-color: #D47E61;
+  }
+
+  .img-banner {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-family: Caveat;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #D47E61;
+    line-height: 0.9;
+    margin-bottom: 5rem;
+    text-shadow: 1px 2px 3px rgb(108, 100, 100);
+  }
+
+  .time-counter {
+    font-family: CormorantGaramondt;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .no-animation__card {
+    margin-left: 1rem;
+  }
+  
+  .flip-clock__slot {
+    margin-left: 1rem;
+  }
+
+  .date-container {
+    margin: auto;
+    text-align: center;
+    width: 90vw;
+    padding-bottom: 3rem;
+    p {
+        font-family: CormorantGaramondt;
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        padding: 0.7rem;
+        border: 0.1rem solid;
+        border-radius: 40px;
+        font-size: 1rem;
+    }
+  }
+
+  .container-banner {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    p {
+      font-family: CormorantGaramondt;
+      font-weight: 400;
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .date-text {
+    padding-bottom: 2rem;
+  }
+
+  .orange-section {
+    height: 4rem;
+    background-color: #D47E61;
+  }
+
+  .img-banner {
+    display: none;
+  }
+}
